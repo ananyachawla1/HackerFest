@@ -101,5 +101,42 @@
               </div>
             </div>
           </div>
+          <div class="container-fluid mt-5" id="events">
+            <!-- Events Filter -->
+    
+            <div class="background-cont">
+              <div class="d-flex filter-container">
+                <!-- Search Filter -->
+                <div class="form-group flex-fill search-input">
+                  <i class="fa fa-search icon" style="color: #696969"></i>
+                  <input
+                    class="form-control"
+                    id="search-filter"
+                    placeholder="Search for an event here"
+                  />
+                  
+                  <div class="autocom-box">
+                    <!-- here list are inserted from javascript -->
+                  </div>
+                </div>
+                <!-- Search Filter Ends -->
+    
+                <!-- Event Status Filter -->
+                <div class="form-group">
+                  <label class="filter-labels">Status</label>
+                  <select
+                    class="form-control"
+                    id="event-status-filter"
+                    name="Event Status Filter"
+                  >
+                    <option value="All">All</option>
+                    <option value="Online">Online</option>
+                    <option value="Offline">Offline</option>
+                  </select>
+                </div>
+                <!-- Event Status Filter Ends -->
+    
+                <!-- Event Date Filter -->
+    
 </body>
 </html>
